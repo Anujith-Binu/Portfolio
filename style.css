@@ -284,7 +284,7 @@ a {
 /* ----------------------------------------------------------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------------------------------------------------------- */
 
-@media(max-width:426px) {
+/* @media(max-width:426px) {
 
 
     .nav-div {
@@ -447,5 +447,69 @@ a {
 
 
 
+
+} */
+
+@media (max-width:426px){
+    .Q1{
+        font-size: 45px;
+        margin-left: 68px;
+        padding-top: 366px;
+    }
+    span{
+        margin-left: 3px;
+    }
+
+    .Q2{
+        margin-left: 68px;
+        font-size: 45px;
+        padding-top: 355px;
+    }
+    .skl-p {
+        margin-left: 149px;
+        font-size: 45px;
+        padding-top: 50px;
+    }
+    .p-connect{
+        font-size: 50px;
+        padding-top: 85px;
+
+    }
+    a{
+        margin-left: 10px;
+    }
+    .links{
+        margin-left: -13px;
+    }
+    .f1-left{
+        width: 100%;
+        height: 300px;
+    }
+
+    .f1-right{
+        width: 100%;
+        height: 300px;
+    }
+    .right-s1{
+        order: 1;
+        margin-top: -328px;
+        margin-left: 17px;
+    }
+    .profile-img{
+        height: 170px;
+        margin-top: 427px;
+    }
+    .left-s1{
+        order: 2;
+    }
+    .z2{
+        height: 600px;
+    }
+    .lsq-page{
+        height: 800px;
+    }
+    .skl{
+        width: 75%;
+    }
 
 }

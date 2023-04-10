@@ -1,0 +1,283 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0 0 0 / 4%);
+}
+
+.main-div {
+    display: grid;
+    position: relative;
+
+}
+
+.navbar {
+    margin-left: 600px;
+    padding-top: 25px;
+}
+
+.nav-link {
+    color: #eeebdd;
+}
+
+
+.nav-div {
+    background-color: rgb(0 0 0 / 4%);
+}
+
+/* -----------------------------------------------------------first-div-------------------------------------------------------------------------- */
+
+.first-page {
+    background-color: rgba(0, 0, 0, 0.897);
+    width: 100%;
+    height: 820px;
+    margin-top: -140px;
+
+}
+
+.Q1 {
+    color: #eeebdd;
+    font-family: inherit;
+    font-size: 150px;
+    margin-left: 207px;
+    padding-top: 280px;
+
+}
+
+/* -----------------------------------------------------------about-div------------------------------------------------------------------------- */
+
+.about-div {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.897);
+    padding: 0%;
+
+}
+
+/* ----------------------------------------------------------row--------------------------------------------------------------------------------- */
+
+.abt-cont {
+    height: 350px;
+    background-color: #eeebdd52;
+    width: 100%;
+    display: grid;
+    margin-left: 10px;
+
+}
+
+
+
+
+.left-s1 {
+    height: 350px;
+    flex: 1;
+    grid-column-start: -3;
+    margin: 0px;
+}
+
+
+.abw-h2 {
+    font-size: 25px;
+    font-family: 'JetBrains Mono', sans-serif;
+    color: #1c1c1be6;
+    font-weight: 700;
+    margin-left: 250px;
+    margin-top: 75px;
+
+
+}
+
+.abw {
+    margin-top: 80px;
+    font-family: 'General Sans', sans-serif;
+    margin-left: 250px;
+    color: #171717;
+    font-weight: 300;
+    font-size: 17px;
+
+}
+
+.right-s1 {
+    height: 350px;
+    margin: 0px;
+
+}
+
+.profile-img {
+    height: 350px;
+    margin-left: 24rem;
+    padding: 0px;
+
+}
+
+
+
+
+/* -------------------------------------------------------------------WORKS-------------------------------------------------------------------- */
+
+.works {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 1190px;
+
+}
+
+.p-works {
+    margin-left: 150px;
+    padding-top: 0px;
+    color: #eeebdd;
+}
+
+.works-cont {
+    margin-top: 160px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 1003px;
+    width: 100%;
+
+}
+
+.z2 {
+    display: flex;
+    width: 100%;
+    margin-left: 12px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+
+}
+
+
+.netflix-img{
+    height: 498px;
+    width: 100%;
+    margin-left: 1px;
+    border-radius: 30px;
+    transform: translate(1);
+
+}
+.prime-img{
+    height: 498px;
+    width: 100%;
+    border-radius: 30px;
+
+}
+
+
+.f1-left {
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 500px;
+    width: 40%;
+    border: 2px white solid;
+    border-radius: 30px;
+
+}
+
+.f1-right {
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 500px;
+    width: 58%;
+    border: 2px white solid;
+    margin-left: 5px;
+    border-radius: 30px;
+
+}
+
+.f2-right{
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 500px;
+    width: 58%;
+    border: 2px white solid;
+    margin-left: 5px;
+    border-radius: 30px;
+
+}
+.f2-left{
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 500px;
+    width: 40%;
+    border: 2px white solid;
+    border-radius: 30px;
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------------------------------- -*/
+
+.lsq-page {
+    background-color: rgba(0, 0, 0, 0.897);
+    width: 100%;
+    height: 920px;
+
+}
+
+.Q2 {
+    color: #eeebdd;
+    font-family: inherit;
+    font-size: 150px;
+    margin-left: 207px;
+    padding-top: 70px;
+
+}
+
+hr {
+    color: #eeebdd;
+    margin: 0px;
+    padding: 0%;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------SKILLS---------------------------------------------------------------------- */
+
+.skills {
+    width: 100%;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.897);
+
+}
+
+.skl {
+    width: 50%;
+    padding-top: 150px;
+}
+
+.skl-p {
+    color: #eeebdd;
+    font-family: inherit;
+    font-size: 150px;
+    margin-left: 574px;
+
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------CONTACTS---------------------------------------------------------------------- */
+
+.contacts {
+    width: 100%;
+    height: 850px;
+    background-color: #eeebdd;
+    color: rgb(15, 15, 53);
+
+
+}
+
+.p-connect {
+    font-size: 150px;
+}
+
+.links {
+    padding-top: 580px;
+
+}
+
+a {
+    margin-left: 60px;
+    color: rgb(15, 15, 53);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */

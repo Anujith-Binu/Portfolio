@@ -301,10 +301,15 @@ a {
 
     .first-page {
         height: 550px;
+        width: 426px;
     }
 
     .navbar-toggler-icon {
         margin-left: -697px;
+    }
+
+    .about-div{
+        width: 426px;
     }
 
     .abt-cont {
@@ -337,19 +342,24 @@ a {
         margin-left: 1px;
     }
 
+    .works{
+        width: 426px;
+        height: 353vh;
+
+    }
+
     .works-cont {
         width: 420px;
 
     }
 
     .z2 {
-        margin-left: -330px;
         display: grid;
         margin-left: -200px;
     }
 
     .f1-left {
-        margin-left: 134px;
+        margin-left: 235px;
         height: 300px;
         width: 285px;
     }
@@ -362,7 +372,7 @@ a {
         width: 285px;
         height: 300px;
         margin-top: 15px;
-        margin-left: 134px;
+        margin-left: 235px;
     }
 
     .netflix-img {
@@ -375,25 +385,25 @@ a {
         width: 285px;
         height: 300px;
         margin-top: 15px;
-        margin-left: 134px;
+        margin-left: 235px;
     }
 
     .f2-left {
         width: 285px;
         height: 300px;
         margin-top: 15px;
-        margin-left: 134px;
+        margin-left: 235px;
     }
 
-    .works {
-        height: 353vh;
-    }
 
     .Q2 {
         font-size: 28px;
         margin-left: 66px;
         padding-top: 50px;
 
+    }
+    .skills{
+        width: 426px;
     }
 
     .skl-p {
@@ -404,6 +414,7 @@ a {
 
     .lsq-page {
         height: 400px;
+        width: 426px;
     }
 
     .skl {
@@ -428,6 +439,7 @@ a {
 
     .contacts {
         height: 350px;
+        width: 426px;
     }
 
 

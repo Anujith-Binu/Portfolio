@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(0 0 0 / 4%);
 }
 
@@ -64,7 +64,9 @@ body{
     background-color: #eeebdd52;
     width: 100%;
     display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-left: 10px;
+    flex-wrap: wrap;
 
 }
 
@@ -127,7 +129,6 @@ body{
 
 .p-works {
     margin-left: 150px;
-    padding-top: 0px;
     color: #eeebdd;
 }
 
@@ -149,15 +150,15 @@ body{
 }
 
 
-.netflix-img{
+.netflix-img {
     height: 498px;
     width: 100%;
     margin-left: 1px;
     border-radius: 30px;
-    transform: translate(1);
 
 }
-.prime-img{
+
+.prime-img {
     height: 498px;
     width: 100%;
     border-radius: 30px;
@@ -184,7 +185,7 @@ body{
 
 }
 
-.f2-right{
+.f2-right {
     background-color: rgba(0, 0, 0, 0.897);
     height: 500px;
     width: 58%;
@@ -193,7 +194,8 @@ body{
     border-radius: 30px;
 
 }
-.f2-left{
+
+.f2-left {
     background-color: rgba(0, 0, 0, 0.897);
     height: 500px;
     width: 40%;
@@ -281,3 +283,140 @@ a {
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media(max-width:426px) {
+    .Q1 {
+        font-size: 28px;
+        margin-left: 107px;
+        padding-top: 291px;
+
+    }
+    .first-page{
+        height: 550px;
+    }
+
+    .navbar-toggler-icon {
+        margin-left: -697px;
+    }
+
+    .abt-cont {
+        width: 400px;
+    }
+
+    .left-s1 {
+        width: 150px;
+
+    }
+
+    .right-s1 {
+        width: 150px;
+        margin-left: 56px;
+    }
+
+    .profile-img {
+        width: 150px;
+        margin-left: 0px;
+    }
+
+    .abw-h2 {
+        margin-left: 1px;
+        margin-top: 10px;
+    }
+
+    .abw {
+        margin-left: 1px;
+    }
+
+    .works-cont {
+        width: 420px;
+
+    }
+
+    .z2 {
+        margin-left: -330px;
+        display: grid;
+        margin-left: -200px;
+    }
+
+    .f1-left {
+        margin-left: 134px;
+        height: 300px;
+        width: 285px;
+    }
+
+    .prime-img {
+        height: 296px;
+    }
+
+    .f1-right {
+        width: 285px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 134px;
+    }
+
+    .netflix-img {
+        width: 244px;
+        height: 296px;
+
+    }
+
+    .f2-right {
+        width: 285px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 134px;
+    }
+
+    .f2-left {
+        width: 285px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 134px;
+    }
+
+    .works {
+        height: 353vh;
+    }
+
+    .Q2 {
+        font-size: 28px;
+        margin-left: 66px;
+        padding-top: 140px;
+
+    }
+
+    .skl-p {
+        font-size: 28px;
+        margin-left: 66px;
+        padding-top: 100px;
+
+    }
+    .lsq-page{
+        height: 400px;
+    }
+    .skl{
+        margin-left: 29px;
+    }
+
+    .p-connect{
+        margin-left: 10px;
+        font-size: 28px;
+        padding-top: 71px;
+    }
+    a{
+        font-size: 12px;
+    }
+
+    .links{
+        padding-top: 161px;
+        margin-left: -44px;
+    }
+    .contacts{
+        height: 350px;
+    }
+
+
+
+
+}

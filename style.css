@@ -291,6 +291,9 @@ a {
         width: 50%;
 
     }
+    .navbar-toggler{
+        margin-left: -300px;
+    }
 
     .Q1 {
         font-size: 28px;
